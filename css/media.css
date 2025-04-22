@@ -1,0 +1,48 @@
+/* 1920px 이상의 화면에서만 적용 */
+
+@media screen and (min-width: 1920px) {
+  .navBtn {
+    display: none;
+  }
+ 
+  .menu-list ul {
+    list-style: none;
+    display: flex;
+    /* 가로 정렬 */
+    justify-content: center;
+  }
+
+  .menu-list ul li {
+    color: white;
+    padding: 0 2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+  }
+  .modalNav{
+    display: none;
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1919px) {
+
+.menu-list{
+  display: none;
+}
+
+
+  /* 1920px 이상일 때 navBtn 숨기기 */
+
+}
+
+@media screen and (max-width: 900px) {}
+
+@media screen and (max-width: 600px) {
+
+
+}
